@@ -1,0 +1,226 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/airline/getall",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/airline/getall",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/airline/get",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/airline/get",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/airline/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/airline/register",
+      "UpstreamHttpsMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/airline/delete",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/airline/block",
+      "UpstreamHttpsMethod": [ "Delete" ]
+    },
+    { //login
+      "DownstreamPathTemplate": "/api/login/register",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/login/register",
+      "UpstreamHttpsMethod": [ "Post" ]
+    },
+    { //authenticate
+      "DownstreamPathTemplate": "/api/login/authenticate",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/admin/login",
+      "UpstreamHttpsMethod": [ "Post" ]
+    },
+    { //authenticate
+      "DownstreamPathTemplate": "/api/login/authenticate",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/user/login",
+      "UpstreamHttpsMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/login/GetResult",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/login/GetResult",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    { //schedule
+      "DownstreamPathTemplate": "/api/schedule/getall",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7002
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/schedule/getall",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/schedule/add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7002
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/inventory/add",
+      "UpstreamHttpsMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/schedule/delete",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7002
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/schedule/delete",
+      "UpstreamHttpsMethod": [ "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/schedule/search",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7002
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/search",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    { //booking
+      "DownstreamPathTemplate": "/api/Booking/Add",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8050
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/Booking",
+      "UpstreamHttpsMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Booking/Delete",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8050
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/Booking/Cancel",
+      "UpstreamHttpsMethod": [ "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Booking/GetByEmail",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8050
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/Booking/history",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Booking/GetByPNR",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8050
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/ticket",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Booking/Get",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8050
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/Booking/Get",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Booking/GetAll",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8050
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1.0/flight/Booking/GetAll",
+      "UpstreamHttpsMethod": [ "Get" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "RequestKey": "OcRequestId",
+    "AdministrationPath": "/administration"
+  }
+}
+
+

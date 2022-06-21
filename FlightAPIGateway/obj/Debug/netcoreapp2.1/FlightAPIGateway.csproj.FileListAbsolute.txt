@@ -1,0 +1,17 @@
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\bin\Debug\netcoreapp2.1\configuration.json
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\bin\Debug\netcoreapp2.1\FlightAPIGateway.deps.json
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\bin\Debug\netcoreapp2.1\FlightAPIGateway.runtimeconfig.json
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\bin\Debug\netcoreapp2.1\FlightAPIGateway.runtimeconfig.dev.json
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\bin\Debug\netcoreapp2.1\FlightAPIGateway.dll
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\bin\Debug\netcoreapp2.1\FlightAPIGateway.pdb
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\obj\Debug\netcoreapp2.1\FlightAPIGateway.csproj.AssemblyReference.cache
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\obj\Debug\netcoreapp2.1\FlightAPIGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\obj\Debug\netcoreapp2.1\FlightAPIGateway.AssemblyInfoInputs.cache
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\obj\Debug\netcoreapp2.1\FlightAPIGateway.AssemblyInfo.cs
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\obj\Debug\netcoreapp2.1\FlightAPIGateway.csproj.CoreCompileInputs.cache
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\obj\Debug\netcoreapp2.1\FlightAPIGateway.RazorAssemblyInfo.cache
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\obj\Debug\netcoreapp2.1\FlightAPIGateway.RazorAssemblyInfo.cs
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\obj\Debug\netcoreapp2.1\FlightAPIGateway.RazorTargetAssemblyInfo.cache
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\obj\Debug\netcoreapp2.1\FlightAPIGateway.dll
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\obj\Debug\netcoreapp2.1\FlightAPIGateway.pdb
+C:\Users\cogdotnet497\source\repos\FlightAPIGateway\FlightAPIGateway\obj\Debug\netcoreapp2.1\FlightAPIGateway.genruntimeconfig.cache

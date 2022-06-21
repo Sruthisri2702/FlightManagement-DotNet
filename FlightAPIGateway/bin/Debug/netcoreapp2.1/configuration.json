@@ -1,0 +1,139 @@
+{
+  "ReRoutes": [
+    { //Airlines
+      "DownstreamPathTemplate": "/api/airline/getall", 
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 7001,
+      "UpstreamPathTemplate": "/airline/getall",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/airline/get{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 7001,
+      "UpstreamPathTemplate": "/airline/get{id}",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/airline/add",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 7001,
+      "UpstreamPathTemplate": "/airline/register",
+      "UpstreamHttpsMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/airline/delete{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 7001,
+      "UpstreamPathTemplate": "/airline/block{id}",
+      "UpstreamHttpsMethod": [ "Delete" ]
+    },
+    { //login
+      "DownstreamPathTemplate": "/api/login/user",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 7003,
+      "UpstreamPathTemplate": "/login/user",
+      "UpstreamHttpsMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/login/validuser",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 7003,
+      "UpstreamPathTemplate": "/login/validuser",
+      "UpstreamHttpsMethod": [ "Post" ]
+    },
+    {//schedule
+      "DownstreamPathTemplate": "/api/schedule/getall",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 7002,
+      "UpstreamPathTemplate": "/schedule/getall",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/schedule/add",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 7002,
+      "UpstreamPathTemplate": "/schedule/add",
+      "UpstreamHttpsMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/schedule/delete",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 7002,
+      "UpstreamPathTemplate": "/schedule/delete",
+      "UpstreamHttpsMethod": [ "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/schedule/search",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 7002,
+      "UpstreamPathTemplate": "/schedule/search",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Booking/Add",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 8050,
+      "UpstreamPathTemplate": "/Booking/Add",
+      "UpstreamHttpsMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Booking/Delete{pnr}",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 8050,
+      "UpstreamPathTemplate": "/Booking/Cancel{pnr}",
+      "UpstreamHttpsMethod": [ "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Booking/GetByEmail{email}",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 8050,
+      "UpstreamPathTemplate": "/Booking/GetByEmail{email}",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Booking/GetByPNR{pnr}",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 8050,
+      "UpstreamPathTemplate": "/Booking/GetByPNR{pnr}",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Booking/Get",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 8050,
+      "UpstreamPathTemplate": "/Booking/Get",
+      "UpstreamHttpsMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Booking/GetAll",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 7005,
+      "UpstreamPathTemplate": "/Booking/GetAll",
+      "UpstreamHttpsMethod": [ "Get" ]
+    }
+
+  ],
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/administration"
+  }
+}
+
+
